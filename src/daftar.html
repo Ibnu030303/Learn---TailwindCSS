@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEWA GEDUNG</title>
+    <link rel="stylesheet" href="./output.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="font-primary capitalize tracking-wider text-abu1">
+    <!-- Navbar -->
+    <header class="w-full py-6" id="headerNav">
+      <div class="container mx-auto px-4">
+        <nav class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="">
+            <img src="../public/logo.svg" alt="logo" class="w-[140px]" />
+          </div>
+          <!-- Logo END-->
+          <!-- Navbar Item -->
+          <div class="hidden md:block">
+            <ul class="flex items-center gap-6 capitalize">
+              <li>
+                <a
+                  href=""
+                  class="font-semibold text-hijau transition-all duration-300 hover:text-hijau"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Paket</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Hubingi Kami</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Navbar Item END-->
+          <!-- Login -->
+          <div class="hidden gap-2 md:flex">
+            <a
+              href=""
+              class="rounded-full border border-hijau bg-hijau2 px-8 py-3 font-semibold capitalize text-hijau transition-all duration-300 hover:bg-white hover:text-hijau"
+              >Login</a
+            >
+            <a
+              href=""
+              class="rounded-full border border-hijau bg-hijau px-8 py-3 font-semibold capitalize text-white transition-all duration-300 hover:bg-white hover:text-hijau"
+              >Register</a
+            >
+          </div>
+          <!-- Login END-->
+
+          <!-- Mobile Menu -->
+          <div
+            class="absolute inset-0 z-50 hidden h-[100vh] bg-white py-20"
+            id="navbar"
+          >
+            <ul
+              class="flex flex-col items-center justify-center gap-4 capitalize"
+            >
+              <!-- Logo -->
+              <div class="mb-8">
+                <img
+                  src="../public/logo.svg"
+                  alt="LogoMobile"
+                  class="w-[140px]"
+                />
+              </div>
+              <!-- Logo END-->
+              <!-- Navbar Item Mobile -->
+              <li>
+                <a
+                  href=""
+                  class="font-semibold text-hijau transition-all duration-300 hover:text-hijau"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Paket</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Hubingi Kami</a
+                >
+              </li>
+              <!-- Navbar Item Mobile END-->
+              <!-- Login Mobile -->
+              <div class="mt-12 flex flex-col gap-2 text-center">
+                <a
+                  href=""
+                  class="rounded-full border border-hijau bg-hijau2 px-20 py-3 font-semibold capitalize text-hijau transition-all duration-300 hover:bg-white hover:text-hijau"
+                  >Login</a
+                >
+                <a
+                  href=""
+                  class="rounded-full border border-hijau bg-hijau px-20 py-3 font-semibold capitalize text-white transition-all duration-300 hover:bg-white hover:text-hijau"
+                  >Register</a
+                >
+              </div>
+              <!-- Login Mobile END-->
+            </ul>
+          </div>
+          <!-- Burger -->
+          <div
+            class="z-50 cursor-pointer transition-all duration-500 md:hidden"
+            id="menuBurger"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <!-- Burger END -->
+          <!-- Mobile Menu END-->
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar END-->
+
+    <!-- Main -->
+    <main class="bg-slate-100 pb-12">
+      <div class="container mx-auto px-4 py-12">
+        <div class="text-sm capitalize text-slate-400">
+          <span>
+            <a href="../src/index.html" class="font-medium text-abu2">Home</a> /
+            <a href="#" class="font-medium text-hijau">Daftar</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- Content Register-->
+      <div class="container mx-auto mb-20 px-4">
+        <div class="w-full justify-between md:flex">
+          <!-- Left Side -->
+          <div class="mb-14 flex w-full flex-col items-center md:mb-0 md:w-1/2">
+            <div
+              class="h-[300px] w-full overflow-hidden rounded-bl-[80px] rounded-tr-[80px] md:h-[380px] md:w-[400px]"
+            >
+              <img
+                src="../public/img/Rectangle 27.png"
+                alt="imageRegister"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <h2
+              class="mb-4 mt-8 max-w-sm text-center text-lg font-semibold md:text-left md:text-2xl"
+            >
+              tentang gedung
+              <span class="text-hijau">serbaguna multi hall event</span> makasar
+            </h2>
+            <p
+              class="max-w-sm text-center text-sm text-slate-500 md:text-left md:text-base"
+            >
+              lokasi gedung di makasar, sulawesi selatan
+            </p>
+          </div>
+          <!-- Left Side END -->
+
+          <!-- Right Side -->
+          <div
+            class="w-full rounded-2xl bg-white px-2 py-6 capitalize shadow-lg shadow-slate-200/50 md:ml-4 md:w-1/2 md:px-8"
+          >
+            <h3 class="mb-2 text-lg font-bold md:text-xl">Form Folmulir</h3>
+            <p class="mb-8 text-sm text-slate-500 md:text-base">
+              silahakan sisi form folmulir dibawah ini mohon di isi semua
+              datanya
+            </p>
+
+            <form action="">
+              <div class="mb-4">
+                <label
+                  for=""
+                  class="mb-2 text-sm after:ml-1 after:text-red-500 after:content-['*']"
+                  >Nama Pemesan</label
+                >
+                <input
+                  type="text"
+                  class="w-full rounded-md border border-slate-400 px-3 py-2 outline-none focus:border-hijau focus:ring-1 focus:ring-hijau"
+                  placeholder="Masukan Nama Pemesan"
+                />
+              </div>
+              <div class="mb-4">
+                <label
+                  for=""
+                  class="mb-2 text-sm after:ml-1 after:text-red-500 after:content-['*']"
+                  >Nama Pemakai</label
+                >
+                <input
+                  type="text"
+                  class="w-full rounded-md border border-slate-400 px-3 py-2 outline-none focus:border-hijau focus:ring-1 focus:ring-hijau"
+                  placeholder="Masukan Nama Pemakai"
+                />
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div class="mb-4">
+                  <label
+                    for=""
+                    class="mb-2 text-sm after:ml-1 after:text-red-500 after:content-['*']"
+                    >NIK</label
+                  >
+                  <input
+                    type="text"
+                    class="w-full rounded-md border border-slate-400 px-3 py-2 outline-none focus:border-hijau focus:ring-1 focus:ring-hijau"
+                    placeholder="000XX000XX000"
+                  />
+                </div>
+                <div class="mb-4">
+                  <label
+                    for=""
+                    class="mb-2 text-sm after:ml-1 after:text-red-500 after:content-['*']"
+                    >NO WhatsApp</label
+                  >
+                  <input
+                    type="text"
+                    class="w-full rounded-md border border-slate-400 px-3 py-2 outline-none focus:border-hijau focus:ring-1 focus:ring-hijau"
+                    placeholder="+62"
+                  />
+                </div>
+              </div>
+              <div class="mb-4">
+                <label
+                  for=""
+                  class="mb-2 text-sm after:ml-1 after:text-red-500 after:content-['*']"
+                  >Alamat</label
+                >
+                <input
+                  type="text"
+                  class="w-full rounded-md border border-slate-400 px-3 py-2 outline-none focus:border-hijau focus:ring-1 focus:ring-hijau"
+                  placeholder="Masukan Alamat"
+                />
+              </div>
+              <div class="mb-4">
+                <label
+                  for=""
+                  class="mb-2 text-sm after:ml-1 after:text-red-500 after:content-['*']"
+                  >Tanggal Pemesanan</label
+                >
+                <input
+                  type="date"
+                  class="w-full rounded-md border border-slate-400 px-3 py-2 outline-none focus:border-hijau focus:ring-1 focus:ring-hijau"
+                />
+              </div>
+
+              <a href="succes.html" class="py-3 bg-hijau text-white rounded-full w-full block text-center capitalize mb-4 font-semibold border hover:border-hijau hover:bg-white hover:text-hijau transition-all duration-500">kirim data pemesanan <i class="fa-solid fa-caret-right"></i></a>
+              <p class="capitalize text-sm text-slate-400 text-center">Klik tombol kirim data pemesanan untuk melanjutkan</p>
+            </form>
+          </div>
+          <!-- Right Side END -->
+        </div>
+      </div>
+      <!-- Content Register END -->
+    </main>
+    <!-- Main END -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>

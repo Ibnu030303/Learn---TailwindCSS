@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEWA GEDUNG</title>
+    <link rel="stylesheet" href="./output.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="font-primary capitalize tracking-wider text-abu1">
+    <!-- Navbar -->
+    <header class="w-full py-6" id="headerNav">
+      <div class="container mx-auto px-4">
+        <nav class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="">
+            <img src="../public/logo.svg" alt="logo" class="w-[140px]" />
+          </div>
+          <!-- Logo END-->
+          <!-- Navbar Item -->
+          <div class="hidden md:block">
+            <ul class="flex items-center gap-6 capitalize">
+              <li>
+                <a
+                  href=""
+                  class="font-semibold text-hijau transition-all duration-300 hover:text-hijau"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Paket</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Hubingi Kami</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Navbar Item END-->
+          <!-- Login -->
+          <div class="hidden gap-2 md:flex">
+            <a
+              href=""
+              class="rounded-full border border-hijau bg-hijau2 px-8 py-3 font-semibold capitalize text-hijau transition-all duration-300 hover:bg-white hover:text-hijau"
+              >Login</a
+            >
+            <a
+              href=""
+              class="rounded-full border border-hijau bg-hijau px-8 py-3 font-semibold capitalize text-white transition-all duration-300 hover:bg-white hover:text-hijau"
+              >Register</a
+            >
+          </div>
+          <!-- Login END-->
+
+          <!-- Mobile Menu -->
+          <div
+            class="absolute inset-0 z-50 hidden h-[100vh] bg-white py-20"
+            id="navbar"
+          >
+            <ul
+              class="flex flex-col items-center justify-center gap-4 capitalize"
+            >
+              <!-- Logo -->
+              <div class="mb-8">
+                <img
+                  src="../public/logo.svg"
+                  alt="LogoMobile"
+                  class="w-[140px]"
+                />
+              </div>
+              <!-- Logo END-->
+              <!-- Navbar Item Mobile -->
+              <li>
+                <a
+                  href=""
+                  class="font-semibold text-hijau transition-all duration-300 hover:text-hijau"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Paket</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="font-normal transition-all duration-300 hover:text-hijau"
+                  >Hubingi Kami</a
+                >
+              </li>
+              <!-- Navbar Item Mobile END-->
+              <!-- Login Mobile -->
+              <div class="mt-12 flex flex-col gap-2 text-center">
+                <a
+                  href=""
+                  class="rounded-full border border-hijau bg-hijau2 px-20 py-3 font-semibold capitalize text-hijau transition-all duration-300 hover:bg-white hover:text-hijau"
+                  >Login</a
+                >
+                <a
+                  href=""
+                  class="rounded-full border border-hijau bg-hijau px-20 py-3 font-semibold capitalize text-white transition-all duration-300 hover:bg-white hover:text-hijau"
+                  >Register</a
+                >
+              </div>
+              <!-- Login Mobile END-->
+            </ul>
+          </div>
+          <!-- Burger -->
+          <div
+            class="z-50 cursor-pointer transition-all duration-500 md:hidden"
+            id="menuBurger"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <!-- Burger END -->
+          <!-- Mobile Menu END-->
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar END-->
+
+    <!-- Main -->
+    <main class="bg-slate-100 pb-12">
+      <div class="container mx-auto px-4 py-12">
+        <div class="text-sm capitalize text-slate-400">
+          <span>
+            <a href="../src/index.html" class="font-medium text-abu2">Home</a> /
+            <a href="#" class="font-medium text-hijau">Success Daftar</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="container mx-auto my-20 px-4">
+        <div class="text-center">
+            <i class="fa-solid fa-circle-check text-hijau text-[70px] mb-4"></i>
+            <h1 class="font-semibold text-xl md:text-3xl capitalize mb-2">Sewa Gedung berhasil di daftar</h1>
+            <p class="text-slate-500 text-sm md:text-base mb-12">silahkan klik tombol di bawah untuk melanjutkan ke dashboard</p>
+
+            <!-- Btn to Dashboard -->
+             <a href="" class="py-3 bg-hijau text-white rounded-full w-full md:w-64 block text-center capitalize mb-4 font-semibold border hover:border-hijau hover:bg-white hover:text-hijau transition-all duration-500 mx-auto">Dashboard</a>
+            <!-- Btn to Dashboard END -->
+        </div>
+      </div>
+      <!-- Main Content END -->
+    </main>
+    <!-- Main END -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
